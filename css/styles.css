@@ -595,6 +595,56 @@ a:hover {
     margin-right: 5px; /* Adds a small space between logo and text */
 }
 
+/* Sidebar button styling */
+.sidebar-button {
+    position: fixed; /* Fixed position */
+    top: 50%; /* Position in the middle of the screen vertically */
+    right: 0; /* Align to the right side of the screen */
+    transform: translateY(-50%); /* Center it */
+    background-color: #8e0e00; /* Background color */
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+    padding: 10px; /* Padding */
+    transition: all 0.3s ease; /* Transition for smooth effects */
+    white-space: nowrap; /* Prevents wrapping of sidebar content */
+    overflow: hidden; /* Hide the overflow content */
+    width: 40px; /* Initial width to only show the toggle symbol */
+}
+
+/* Sidebar toggle button styling */
+.sidebar-toggle {
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    font-size: 30px; /* Size of the toggle button */
+    display: block; /* Block level element */
+    text-align: center; /* Center the toggle symbol */
+}
+
+/* Show full sidebar on hover */
+.sidebar-button:hover {
+    width: 100px; /* Width to show the full sidebar content */
+}
+
+/* Side banner for important notices or calls to action */
+.side-banner {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Keeps the original space distribution */
+}
+
+.sidebar-button a {
+    color: white; /* Text color */
+    text-decoration: none; /* No underline */
+    display: block; /* Block level element */
+    margin-top: 10px; /* Space between links */
+    padding: 5px 10px; /* Padding inside the links */
+    transition: all 0.3s ease; /* Transition for smooth effects */
+}
+
 .services-menu li a {
     background-color: #fff;
     display: block; /* Make the links block elements to fill the list item */
