@@ -661,6 +661,25 @@ a:hover {
     color: #fff; /* Change text color on hover */
 }
 
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	justify-content: center;
+  }
+  ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: #fff;
+	content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+	color: #fff;
+	text-decoration: none;
+  }
+
 /*********************/
 /*     Details 1     */
 /*********************/
